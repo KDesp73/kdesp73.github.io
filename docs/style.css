@@ -29,15 +29,19 @@ body {
     color: var(--accent-color);
 }
 
-.link > a:hover {
+.link:hover > a {
     color: darkorchid;
+}
+
+.link:hover{
+    cursor: pointer;
 }
 
 .link:hover .selector {
     display: inline;
 }
 
-.list .selector:hover {
+.link .selector:hover {
     display: none;
 }
 
