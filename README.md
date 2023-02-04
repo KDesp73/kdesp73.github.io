@@ -1,2 +1,2 @@
-# kdesp73.github.com
+# kdesp73.github.io
 Index page for my github domain
