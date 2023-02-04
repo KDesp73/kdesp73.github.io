@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "IBM-Mono";
+    src: url("./static/IBMPlexMono-Regular.ttf");
+  }
+
+*{
+    --bg: #1B1B1E;
+    --accent-color: #275DAD;
+    font-family: "IBM-Mono";
+}
+
+body{
+    margin: 0;
+    padding: 10%;
+    background-color: var(--bg);
+    color: white;
+}
+
+.list{
+    list-style: none;
+}
+
+.link{
+    line-height: 2em;
+}
+
+.link a{
+    color: var(--accent-color);
+}
+
+.link a:hover{
+    color: darkorchid;
+}
