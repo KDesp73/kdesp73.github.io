@@ -23,6 +23,7 @@ body {
 .link {
     line-height: 2.5em;
     width: fit-content;
+    height: fit-content;
 }
 
 .link a {
