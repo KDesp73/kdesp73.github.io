@@ -27,17 +27,5 @@ const projects = [
     title: "Ruby Web Server",
     link: "https://github.com/KDesp73/Ruby-Web-Server",
     img: ""
-  },
-
-  {
-    title: "Password Manager",
-    link: "",
-    img: ""
-  },
-
-  {
-    title: "Movie Manager",
-    link: "",
-    img: ""
   }
 ];
