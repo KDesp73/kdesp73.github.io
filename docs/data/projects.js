@@ -8,13 +8,13 @@ const projects = [
   {
     title: "MADB library",
     link: "https://github.com/KDesp73/MADB",
-    img: ""
+    img: "https://www.logo.wine/a/logo/Microsoft_Access/Microsoft_Access-Logo.wine.svg"
   },
 
   {
     title: "Swing-Themes-Lib",
     link: "https://github.com/KDesp73/Swing-Themes-Library",
-    img: ""
+    img: "https://logos-world.net/wp-content/uploads/2022/07/Java-Logo.jpg"
   },
 
   {
@@ -26,6 +26,6 @@ const projects = [
   {
     title: "Ruby Web Server",
     link: "https://github.com/KDesp73/Ruby-Web-Server",
-    img: ""
+    img: "https://freesvg.org/img/web_server.png"
   }
 ];
