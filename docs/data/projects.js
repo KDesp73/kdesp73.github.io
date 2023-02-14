@@ -14,7 +14,7 @@ const projects = [
   {
     title: "Swing-Themes-Lib",
     link: "https://github.com/KDesp73/Swing-Themes-Library",
-    img: "https://logos-world.net/wp-content/uploads/2022/07/Java-Logo.jpg"
+    img: "https://www.barmaje.com/images/java_swing_logo.png"
   },
 
   {
