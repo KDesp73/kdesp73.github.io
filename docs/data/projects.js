@@ -20,7 +20,7 @@ const projects = [
   {
     title: "SyncR",
     link: "https://github.com/KDesp73/SyncR",
-    img: ""
+    img: "https://user-images.githubusercontent.com/63654361/218868952-c41d561b-f570-44c1-b32a-34c12b53b91f.png"
   },
 
   {
