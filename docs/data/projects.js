@@ -27,5 +27,10 @@ const projects = [
     title: "Ruby Web Server",
     link: "https://github.com/KDesp73/Ruby-Web-Server",
     img: "https://freesvg.org/img/web_server.png"
+  }, 
+  {
+    title: "Watchlist Wizard", 
+    link: "https://dmg-techlabs.github.io/Movie-Manager-Website/index.html", 
+    img: ""
   }
 ];
