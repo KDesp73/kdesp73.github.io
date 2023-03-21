@@ -31,6 +31,6 @@ const projects = [
   {
     title: "Watchlist Wizard", 
     link: "https://dmg-techlabs.github.io/Movie-Manager-Website/index.html", 
-    img: ""
+    img: "https://user-images.githubusercontent.com/63654361/226742062-b93da9c5-fe3d-4256-b5a3-b6c9879d9f8d.png"
   }
 ];
