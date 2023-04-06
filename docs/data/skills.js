@@ -1,5 +1,6 @@
 const skills = [
   { tag: "C", percentage: "60%" },
+  { tag: "C++", percentage: "70%" },
   { tag: "Java", percentage: "85%" },
   { tag: "Python", percentage: "70%" },
   { tag: "Ruby", percentage: "50%" },
@@ -7,5 +8,5 @@ const skills = [
   { tag: "CSS", percentage: "90%" },
   { tag: "JS", percentage: "60%" },
   { tag: "SQL", percentage: "50%" },
-  { tag: "x86 asm", percentage: "20%" },
+  { tag: "x86asm", percentage: "35%" },
 ];
