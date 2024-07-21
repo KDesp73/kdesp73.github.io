@@ -13,6 +13,7 @@ void links(char** buffer)
         (Link) {.title = "My Docs", .link = "https://kdesp73.github.io/Docs"},
         (Link) {.title = "webc-site", .link = "https://kdesp73.github.io/webc-site"},
         (Link) {.title = "webc-docs", .link = "https://kdesp73.github.io/webc-docs"},
+        (Link) {.title = "iee-api", .link = "https://iee-api-nine.vercel.app/"},
         (Link) {.title = "Watchlist Wizard Website", .link = "https://dmg-techlabs.github.io/Movie-Manager-Website/"},
         (Link) {.title = "What Does My Girlfriend Want To Eat", .link = "https://kdesp73.github.io/What-Does-My-Girlfriend-Want-To-Eat/"}
     };
