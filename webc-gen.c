@@ -6,16 +6,19 @@ typedef struct {
     const char* title;
 } Link;
 
+#define MYLINK(t, l) \
+    (Link) {.title = t, .link = l}
+
 void links(char** buffer)
 {
     Link items[] = {
-        (Link) {.title = "My Portfolio", .link = "https://kdesp73.github.io/Portfolio"},
-        (Link) {.title = "My Docs", .link = "https://kdesp73.github.io/Docs"},
-        (Link) {.title = "webc-site", .link = "https://kdesp73.github.io/webc-site"},
-        (Link) {.title = "webc-docs", .link = "https://kdesp73.github.io/webc-docs"},
-        (Link) {.title = "iee-api", .link = "https://iee-api-nine.vercel.app/"},
-        (Link) {.title = "Watchlist Wizard Website", .link = "https://dmg-techlabs.github.io/Movie-Manager-Website/"},
-        (Link) {.title = "What Does My Girlfriend Want To Eat", .link = "https://kdesp73.github.io/What-Does-My-Girlfriend-Want-To-Eat/"}
+        MYLINK("My Portfolio", "https://kdesp73.github.io/Portfolio"),
+        MYLINK("My Docs", "https://kdesp73.github.io/Docs"),
+        MYLINK("webc-site", "https://kdesp73.github.io/webc-site"),
+        MYLINK("webc-docs", "https://kdesp73.github.io/webc-docs"),
+        MYLINK("iee-api", "https://iee-api-nine.vercel.app/"),
+        MYLINK("Watchlist Wizard Website", "https://dmg-techlabs.github.io/Movie-Manager-Website/"),
+        MYLINK("What Does My Girlfriend Want To Eat", "https://kdesp73.github.io/What-Does-My-Girlfriend-Want-To-Eat/")
     };
 
     for(size_t i = 0; i < ARRAY_LEN(items); ++i){
