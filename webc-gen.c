@@ -14,6 +14,7 @@ void links(char** buffer)
     Link items[] = {
         MYLINK("My Portfolio", "https://kdesp73.github.io/Portfolio"),
         MYLINK("My Docs", "https://kdesp73.github.io/Docs"),
+        MYLINK("DataBridge Docs", "https://kdesp73.github.io/DataBridge"),
         MYLINK("webc-site", "https://kdesp73.github.io/webc-site"),
         MYLINK("webc-docs", "https://kdesp73.github.io/webc-docs"),
         MYLINK("iee-api", "https://iee-api-nine.vercel.app/"),
@@ -34,11 +35,13 @@ char* Index()
     char* buffer = NULL;
     WEBC_HtmlStart(&buffer, "en");
     WEBC_Head(&buffer, "index.html",
+        META_AUTHOR_TAG("Konstantinos Despoinidis"),
+        META_DESCRIPTION_TAG("Link collection"),
         LINK_STYLESHEET_TAG("./style.css"),
         NULL
     );
 
-    WEBC_BodyStart(&buffer);
+    WEBC_BodyStart(&buffer, NO_ATTRIBUTES);
         WEBC_H1(&buffer, NO_ATTRIBUTES, "index.html");
 
         WEBC_Ul(&buffer, CLASS("list"), links);
