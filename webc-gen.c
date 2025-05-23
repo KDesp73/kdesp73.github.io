@@ -12,14 +12,16 @@ typedef struct {
 void links(char** buffer)
 {
     Link items[] = {
-        MYLINK("My Portfolio", "https://kdesp73.github.io/Portfolio"),
+        MYLINK("webcli", "https://alert-pigeon-driven.ngrok-free.app/"),
+        MYLINK("Artc Editor", "https://artc-editor.vercel.app"),
+        // MYLINK("My Portfolio", "https://kdesp73.github.io/Portfolio"),
         MYLINK("My Docs", "https://kdesp73.github.io/Docs"),
-        MYLINK("DataBridge Docs", "https://kdesp73.github.io/DataBridge"),
-        MYLINK("webc-site", "https://kdesp73.github.io/webc-site"),
-        MYLINK("webc-docs", "https://kdesp73.github.io/webc-docs"),
+        // MYLINK("DataBridge Docs", "https://kdesp73.github.io/DataBridge"),
+        // MYLINK("webc-site", "https://kdesp73.github.io/webc-site"),
+        // MYLINK("webc-docs", "https://kdesp73.github.io/webc-docs"),
         MYLINK("iee-api", "https://iee-api-nine.vercel.app/"),
-        MYLINK("Watchlist Wizard Website", "https://dmg-techlabs.github.io/Movie-Manager-Website/"),
-        MYLINK("What Does My Girlfriend Want To Eat", "https://kdesp73.github.io/What-Does-My-Girlfriend-Want-To-Eat/")
+        // MYLINK("Watchlist Wizard Website", "https://dmg-techlabs.github.io/Movie-Manager-Website/"),
+        // MYLINK("What Does My Girlfriend Want To Eat", "https://kdesp73.github.io/What-Does-My-Girlfriend-Want-To-Eat/"),
     };
 
     for(size_t i = 0; i < ARRAY_LEN(items); ++i){
