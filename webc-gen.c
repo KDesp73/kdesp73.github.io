@@ -39,6 +39,7 @@ char* Index()
     WEBC_Head(&buffer, "index.html",
         META_AUTHOR_TAG("Konstantinos Despoinidis"),
         META_DESCRIPTION_TAG("Link collection"),
+        META_KEYWORDS_TAG("kdesp73,index,list,webc"),
         LINK_STYLESHEET_TAG("./style.css"),
         NULL
     );
