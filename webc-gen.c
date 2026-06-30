@@ -20,6 +20,7 @@ void links(char** buffer)
         // MYLINK("webc-site", "https://kdesp73.github.io/webc-site"),
         // MYLINK("webc-docs", "https://kdesp73.github.io/webc-docs"),
         MYLINK("iee-api", "https://iee-api-nine.vercel.app/"),
+        MYLINK("Gardener", "https://gardener.kdesp73.org"),
         // MYLINK("Watchlist Wizard Website", "https://dmg-techlabs.github.io/Movie-Manager-Website/"),
         // MYLINK("What Does My Girlfriend Want To Eat", "https://kdesp73.github.io/What-Does-My-Girlfriend-Want-To-Eat/"),
     };
